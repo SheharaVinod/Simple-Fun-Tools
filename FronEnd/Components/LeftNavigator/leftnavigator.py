@@ -37,11 +37,15 @@ Builder.load_string("""
     AnchorLayout:
         size_hint:1,None
         height:40
+        anchor_x:"center"
+        anchor_y:"top"
         MDLabel:
             text:"Simple Fun Tools"
-            halign:"center"
             font_size:"18sp"
             bold:True
+            adaptive_size:True
+            
+            
     MDBoxLayout:
 
 
